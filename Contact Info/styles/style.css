@@ -5,40 +5,37 @@ body{
 }
 .header{
     width: 100%;
-    height: 102px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.header_main{
-    width: 80%;
-    height: 60px;
+    height: 80px;
+    background:white;
+    margin: 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: center;
-}
-.head-text{
-
-font-family: Montserrat;
-font-style: normal;
-font-weight: 500;
-font-size: 12px;
-line-height: 24px;
-letter-spacing: 1.2px;
-text-transform: uppercase;
-color: #191919;
-}
-
-.head-link{
-    text-decoration: none;
-    margin-left: 30px;
+    flex-grow: 0;
+    
 }
 .logo{
-    margin-right: 68%;
+    margin-right: 69%;
+    margin-top: 34px;
 }
-.head-text:hover{
-    color: #10C9C3
+.header-button_list{
+margin-top: 30px;
+margin-right:7.2%;
+}
+
+.header-a{
+    text-decoration: none;
+    margin-left: 17px;
+    font-family: Montserrat;
+    color: black;
+    color:#191919;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+}
+.header-a:hover{
+    color: cyan;
 }
 .main{
     width: 100%;
